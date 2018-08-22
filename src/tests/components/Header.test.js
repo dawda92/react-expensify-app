@@ -6,4 +6,3 @@ test('should render header correctly', () => {
     const wrapper = shallow(<Header />);
     expect(wrapper).toMatchSnapshot();
 });
-
